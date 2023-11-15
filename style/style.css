@@ -1,8 +1,18 @@
-.section_review, .section_promises, .section_video, .section_benefits {
+.section_review,
+.section_promises,
+.section_video,
+.section_benefits {
   margin-top: 120px;
 }
 
-.section_contact .contact_form form .button button, .section_contact .contact_form form .button, .section_promises .item_content .right .block_button, .container, .button a, .button, input, main {
+.section_contact .contact_form form .button button,
+.section_contact .contact_form form .button,
+.section_promises .item_content .right .block_button,
+.container,
+.button a,
+.button,
+input,
+main {
   transition: all 0.5s ease;
 }
 
@@ -12,21 +22,26 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -36,7 +51,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
   background-color: transparent;
 }
@@ -54,7 +71,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -70,7 +88,12 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -164,7 +187,13 @@ input:focus:invalid {
 }
 
 header {
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.24) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
+  background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.24) 24.1%,
+      rgba(255, 255, 255, 0) 47.19%
+    ),
+    rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(4.5px);
   width: 100%;
   position: absolute;
@@ -257,7 +286,8 @@ header .container .navigation .nav_menu .menuHamburger label .burger {
   overflow: hidden;
   position: relative;
 }
-.section_first_content .first_img img, .section_first_content .first_img iframe {
+.section_first_content .first_img img,
+.section_first_content .first_img iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -289,7 +319,8 @@ header .container .navigation .nav_menu .menuHamburger label .burger {
   position: relative;
   margin-top: -21.649573%;
 }
-.section_info .item_img img, .section_info .item_img iframe {
+.section_info .item_img img,
+.section_info .item_img iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -402,7 +433,8 @@ header .container .navigation .nav_menu .menuHamburger label .burger {
   overflow: hidden;
   position: relative;
 }
-.section_quote .item_img img, .section_quote .item_img iframe {
+.section_quote .item_img img,
+.section_quote .item_img iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -459,7 +491,8 @@ header .container .navigation .nav_menu .menuHamburger label .burger {
   overflow: hidden;
   position: relative;
 }
-.section_video div:nth-child(1) div img, .section_video div:nth-child(1) div iframe {
+.section_video div:nth-child(1) div img,
+.section_video div:nth-child(1) div iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -486,7 +519,8 @@ header .container .navigation .nav_menu .menuHamburger label .burger {
   overflow: hidden;
   position: relative;
 }
-.section_promises .item_img img, .section_promises .item_img iframe {
+.section_promises .item_img img,
+.section_promises .item_img iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -579,7 +613,8 @@ header .container .navigation .nav_menu .menuHamburger label .burger {
   overflow: hidden;
   position: relative;
 }
-.section_review .cards_block .card_item .item_img img, .section_review .cards_block .card_item .item_img iframe {
+.section_review .cards_block .card_item .item_img img,
+.section_review .cards_block .card_item .item_img iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -722,7 +757,8 @@ footer .container {
   align-items: center;
   gap: 0;
 }
-footer .container p, footer .container span {
+footer .container p,
+footer .container span {
   font-size: 0.9em;
   font-weight: 300px;
   line-height: 185.714%;
