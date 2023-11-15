@@ -1,10 +1,27 @@
-@media screen and (min-width: 1023px) and (max-width: 1360px) {
+@media screen and (min-width: 1023px) and (max-width: 1370px) {
   .section_info .item_content {
     width: 80%;
     align-items: center;
     gap: 20px;
-    top: 7px;
+    top: 6%;
     left: 10%;
+  }
+  .section_promises .item_content {
+    width: 80%;
+    top: 7%;
+    left: 10%;
+  }
+  .section_review .cards_block .card_item {
+    width: 31%;
+  }
+  .section_review .cards_block .card_item .item_content {
+    top: 19px;
+    right: 10px;
+    bottom: 20px;
+    left: 10px;
+  }
+  .margine_bottom {
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -63,6 +80,9 @@
   .section_review {
     margin-top: 50px;
   }
+  .section_review .cards_block .card_item .item_content blockquote p {
+    min-height: 164px;
+  }
   .section_review .title {
     text-align: center;
   }
@@ -90,7 +110,7 @@
     top: 5%;
   }
   .section_promises .item_content .right .block_button {
-    border: 1px solid #E4E4E4;
+    border: 1px solid #e4e4e4;
     padding: 17px;
     margin-top: 84px;
   }
@@ -126,7 +146,7 @@
     justify-content: center;
   }
   .section_promises .item_content .right .block_button {
-    border: 1px solid #E4E4E4;
+    border: 1px solid #e4e4e4;
     padding: 15px;
     margin-top: 32px;
   }
@@ -150,6 +170,11 @@
   .section_video div:nth-child(2) {
     width: 100%;
     text-align: center;
+  }
+  .section_review .cards_block .card_item .item_content {
+    top: 20px;
+    right: 10px;
+    left: 10px;
   }
   footer {
     padding-bottom: 15px;
@@ -254,7 +279,7 @@
     margin-top: 5px;
   }
   .section_contact .contact_form form .button {
-    width: 100px;
+    width: 35%;
     height: 10px;
     margin-top: 15px;
     align-self: center;
@@ -267,7 +292,8 @@
   .section_contact .contact_form form div label {
     top: 0;
   }
-  footer .container p, footer .container span {
+  footer .container p,
+  footer .container span {
     font-size: 2.9vw;
   }
 }
@@ -311,39 +337,41 @@
   body {
     background-color: #161926;
   }
-  h1, h2 {
+  h1,
+  h2 {
     color: white;
   }
-  h1 i, h2 i {
-    color: #689FF2;
+  h1 i,
+  h2 i {
+    color: #689ff2;
   }
   p {
     color: white;
   }
   input {
-    border-bottom: 1px solid #2D303C;
+    border-bottom: 1px solid #2d303c;
   }
   .button {
     background-color: rgba(83, 243, 205, 0.3);
   }
   .button a {
-    color: #53F3CD;
+    color: #53f3cd;
   }
   .button:hover {
-    background-color: #B4F6E6;
+    background-color: #b4f6e6;
   }
   .button:hover a {
-    color: #02E0AB;
+    color: #02e0ab;
   }
   header {
     background: linear-gradient(270deg, rgba(22, 25, 38, 0.5) 0%, rgba(22, 25, 38, 0) 24.1%, rgba(22, 25, 38, 0) 47.19%), rgba(22, 25, 38, 0.02);
   }
   header .container .navigation .nav_menu .toggle:checked ~ ul {
-    background: #0A1426;
+    background: #0a1426;
     opacity: 0.9;
   }
   header .container .navigation .nav_menu ul li:hover::after {
-    background: linear-gradient(97deg, #53F3CD 6.73%, rgba(83, 243, 205, 0) 116.9%);
+    background: linear-gradient(97deg, #53f3cd 6.73%, rgba(83, 243, 205, 0) 116.9%);
   }
   header .container .navigation .nav_menu ul li a {
     color: white;
@@ -355,10 +383,10 @@
     background: #161926;
   }
   .section_info .item_content .item_left span {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .section_info .item_content .item_left hr {
-    background: #689FF2;
+    background: #689ff2;
   }
   .section_info .item_content .item_right {
     max-inline-size: 50ch;
@@ -368,7 +396,7 @@
     margin-top: 50px;
   }
   .section_quote .item_quote svg defs linearGradient stop {
-    stop-color: #53F3CD;
+    stop-color: #53f3cd;
   }
   .section_video div:nth-child(1) {
     border: 1px solid #515773;
@@ -390,13 +418,13 @@
     border: 1px solid #515773;
   }
   .section_promises .item_content .right .block_button:hover {
-    border: 1px solid #02E0AB;
+    border: 1px solid #02e0ab;
   }
   .section_promises .item_content .right .block_button:hover .button {
-    background-color: #B4F6E6;
+    background-color: #b4f6e6;
   }
   .section_promises .item_content .right .block_button:hover .button a {
-    color: #02E0AB;
+    color: #02e0ab;
   }
   .section_promises .item_content .right .block_button .button {
     width: 109px;
@@ -412,13 +440,13 @@
     background-color: rgba(83, 243, 205, 0.3);
   }
   .section_contact .contact_form form .button button {
-    color: #53F3CD;
+    color: #53f3cd;
   }
   .section_contact .contact_form form .button:hover {
-    background-color: #B4F6E6;
+    background-color: #b4f6e6;
   }
   .section_contact .contact_form form .button:hover button {
-    color: #02E0AB;
+    color: #02e0ab;
   }
   footer .container p, footer .container span {
     color: white;
