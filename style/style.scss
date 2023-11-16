@@ -1,3 +1,4 @@
+@use "sass:math";
 @import "mixins";
 @import "reset.";
 
@@ -8,6 +9,7 @@ $fourthColor: #f1897b;
 
 body {
   background-color: white;
+  font-size: 16px;
 }
 main {
   min-width: 100%;
@@ -16,7 +18,7 @@ main {
 }
 h1,
 h2 {
-  @include fontStyle(3.34vw, 400, 118.182%, auto, none, $primaryColor);
+  @include fontStyle(3.34vw, 400, 111.182%, auto, none, $primaryColor);
   font-family: "Playfair Display", serif;
   & i {
     color: $secondaryColor;
@@ -72,8 +74,9 @@ input {
 .container {
   margin: 0 auto;
   width: 82.22%;
-  max-width: 1200px;
+  max-width: 1440px;
   @extend %transition;
+  padding-left: 8px;
 }
 header {
   background: linear-gradient(
@@ -89,8 +92,8 @@ header {
   top: 30px;
   z-index: 10;
   & .container {
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     & .navigation {
       @include flexBox(space-between, center, 0);
       & .logo {
@@ -125,7 +128,14 @@ header {
               }
             }
             & a {
-              @include fontStyle(14px, 400, 171.429%, 1.12px, capitalize, $primaryColor);
+              @include fontStyle(
+                14px,
+                400,
+                171.429%,
+                1.12px,
+                capitalize,
+                $primaryColor
+              );
               font-family: Lato, sans-serif;
             }
           }
@@ -155,10 +165,10 @@ header {
     @include adaptiveImg(68%, 100%);
   }
   .content {
-    max-inline-size: 66ch;
+    max-inline-size: 70ch;
     position: absolute;
-    top: 26.055556%;
-    left: 8.88888888889%;
+    top: 26.5%;
+    left: 9.5%;
     & p {
       margin-top: 20px;
       margin-bottom: 50px;
@@ -227,7 +237,7 @@ header {
   row-gap: 59px;
   @extend %marginTop;
   & div {
-    width: 48.7179487179%;
+    width: 47%;
     border-top: 1px solid #e4e4e4;
     padding: 50px 30px 20px 30px;
     & h2 {
@@ -244,7 +254,7 @@ header {
   position: relative;
   margin-top: 96px;
   & .item_img {
-    @include adaptiveImg(34%, 100%);
+    @include adaptiveImg(34.5%, 100%);
   }
   & .item_quote {
     position: absolute;
@@ -271,7 +281,7 @@ header {
         @include fontStyle(1.4vw, 400, 100%, 1.6px, none, white);
         font-family: "Playfair Display", serif;
         font-style: italic;
-        margin-top: 40px;
+        margin-top: 11px;
       }
     }
   }
@@ -293,7 +303,7 @@ header {
   & div:nth-child(2) {
     width: 83%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 54px;
     & p {
       margin-top: 26px;
       max-inline-size: 80ch;
@@ -307,7 +317,7 @@ header {
     @include adaptiveImg(46%, 52%);
   }
   .item_content {
-    width: 65.811965812%;
+    width: 66.811966%;
     opacity: 0.9;
     background: #fff;
     @include flexBox(flex-start, flex-start, 4vw);
@@ -365,13 +375,13 @@ header {
     }
   }
   & .cards_block {
-    @include flexBox(center, flex-start, 30px);
+    @include flexBox(center, flex-start, 26px);
     flex-flow: row wrap;
     & .card_item {
       position: relative;
-      width: 31.6239316239%;
+      width: 31.8%;
       & .item_img {
-        @include adaptiveImg(91.3%, 100%);
+        @include adaptiveImg(92.3%, 100%);
       }
       & .item_content {
         position: absolute;
@@ -409,7 +419,7 @@ header {
 .section_contact {
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
-  margin-top: 6.7vw;
+  margin-top: 7vw;
   padding-bottom: 6.8vw;
   & .flex {
     @include flexBox(space-between, center, 0, row);
@@ -435,7 +445,14 @@ header {
         position: relative;
         width: 100%;
         & label {
-          @include fontStyle(1.25vw, 400px, 111.111%, 1.44px, none, $primaryColor);
+          @include fontStyle(
+            1.25vw,
+            400px,
+            111.111%,
+            1.44px,
+            none,
+            $primaryColor
+          );
           font-family: "Playfair Display", serif;
           font-style: italic;
           opacity: 0.5;
@@ -461,7 +478,14 @@ header {
           position: absolute;
           top: -10px;
           left: -9px;
-          @include fontStyle(1.25em, 700px, 100%, 1.6px, uppercase, $fourthColor);
+          @include fontStyle(
+            1.25em,
+            700px,
+            100%,
+            1.6px,
+            uppercase,
+            $fourthColor
+          );
           font-family: Lato, serif;
           @extend %transition;
           background: transparent;

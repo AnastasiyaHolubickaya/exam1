@@ -24,8 +24,6 @@ $fourthColorDark: #53f3cd;
     & .cards_block {
       & .card_item {
         width: 31%;
-        & .item_img {
-        }
         & .item_content {
           top: 19px;
           right: 10px;
@@ -138,7 +136,7 @@ $fourthColorDark: #53f3cd;
     & .item_content {
       width: 55%;
       left: 21%;
-      top: 5%;
+      top: 2%;
       & .right {
         & .block_button {
           border: 1px solid #e4e4e4;
@@ -185,7 +183,7 @@ $fourthColorDark: #53f3cd;
     & .item_content {
       width: 100%;
       left: 0;
-      padding-top: 22px;
+      // padding-top: 22px;
       justify-content: center;
       & .right {
         & .block_button {
@@ -351,7 +349,7 @@ $fourthColorDark: #53f3cd;
       & form {
         margin-top: 5px;
         & .button {
-          width: 35%;
+          // width: 29.5%;
           height: 10px;
           margin-top: 15px;
           align-self: center;
@@ -389,8 +387,8 @@ $fourthColorDark: #53f3cd;
         font-size: 3vw;
         margin-top: 10px;
       }
-      & div {
-        width: 84px;
+      & .button {
+        width: 100px;
         & a {
           top: -7px;
           left: -7px;
