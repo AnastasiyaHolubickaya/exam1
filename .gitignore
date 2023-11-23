@@ -1,2 +1,4 @@
 .idea/
 /Main (light).jpg
+node_modules
+gulp

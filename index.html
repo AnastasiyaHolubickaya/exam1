@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet" />
-    <link href="https://fonts.cdnfonts.com/css/playfair-display" rel="stylesheet"/>
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/media.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <title>Exam 1</title>
-  </head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.min.css?_v=20231123013410" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>exam1</title>
+</head>
+
   <body>
-    <header>
-      <div class="container">
+    <div class="wrapper">
+      <header>
+    <div class="container">
         <div class="navigation">
-          <div class="logo">
-            <svg>
-              <use xlink:href="images/svg/logo.svg#logo"></use>
-            </svg>
-          </div>
-          <div class="nav_menu">
-            <input class="toggle" type="checkbox" id="nav" />
-            <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#about">about</a></li>
-              <li><a href="#products">products</a></li>
-              <li><a href="#use_case">use case</a></li>
-              <li><a href="#pricing">pricing</a></li>
-              <li><a href="#recourses">recourses</a></li>
-            </ul>
-            <div class="menuHamburger">
-              <label for="nav">
-                <svg
-                  class="burger"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 10 10"
-                  stroke="black"
-                  stroke-width=".5"
-                  fill="rgba(0,0,0,0)"
-                  stroke-linecap="square"
-                  style="cursor: pointer"
-                >
-                  <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">
-                    <animate
-                      dur="0.2s"
-                      attributeName="d"
-                      values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7"
-                      fill="freeze"
-                      begin="start.begin"
-                    />
-                    <animate
-                      dur="0.2s"
-                      attributeName="d"
-                      values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7"
-                      fill="freeze"
-                      begin="reverse.begin"
-                    />
-                  </path>
-                  <rect width="10" height="10" stroke="none">
-                    <animate
-                      dur="2s"
-                      id="reverse"
-                      attributeName="width"
-                      begin="click"
-                    />
-                  </rect>
-                  <rect width="10" height="10" stroke="none">
-                    <animate
-                      dur="0.001s"
-                      id="start"
-                      attributeName="width"
-                      values="10;0"
-                      fill="freeze"
-                      begin="click"
-                    />
-                    <animate
-                      dur="0.001s"
-                      attributeName="width"
-                      values="0;10"
-                      fill="freeze"
-                      begin="reverse.begin"
-                    />
-                  </rect>
+            <div class="logo">
+                <svg>
+                    <use xlink:href="images/svg/logo.svg#logo"></use>
                 </svg>
-              </label>
             </div>
-          </div>
+            <div class="nav_menu">
+                <input class="toggle" type="checkbox" id="nav" />
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#products">products</a></li>
+                    <li><a href="#use_case">use case</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#recourses">recourses</a></li>
+                </ul>
+                <div class="menuHamburger">
+                    <label for="nav">
+                        <svg
+                                class="burger"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 10 10"
+                                stroke="black"
+                                stroke-width=".5"
+                                fill="rgba(0,0,0,0)"
+                                stroke-linecap="square"
+                                style="cursor: pointer"
+                        >
+                            <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">
+                                <animate
+                                        dur="0.2s"
+                                        attributeName="d"
+                                        values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7"
+                                        fill="freeze"
+                                        begin="start.begin"
+                                />
+                                <animate
+                                        dur="0.2s"
+                                        attributeName="d"
+                                        values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7"
+                                        fill="freeze"
+                                        begin="reverse.begin"
+                                />
+                            </path>
+                            <rect width="10" height="10" stroke="none">
+                                <animate
+                                        dur="2s"
+                                        id="reverse"
+                                        attributeName="width"
+                                        begin="click"
+                                />
+                            </rect>
+                            <rect width="10" height="10" stroke="none">
+                                <animate
+                                        dur="0.001s"
+                                        id="start"
+                                        attributeName="width"
+                                        values="10;0"
+                                        fill="freeze"
+                                        begin="click"
+                                />
+                                <animate
+                                        dur="0.001s"
+                                        attributeName="width"
+                                        values="0;10"
+                                        fill="freeze"
+                                        begin="reverse.begin"
+                                />
+                            </rect>
+                        </svg>
+                    </label>
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
-    <main>
-      <section class="section_first_content">
+    </div>
+</header>
+      <main>
         <div class="first_img">
           <picture>
             <source
@@ -137,312 +135,315 @@
           </picture>
         </div>
         <div class="container">
-          <div class="content">
-            <h1>
-              A peer-to-peer stablecoin <i>clearinghouse</i> for the new economy
-            </h1>
-            <p>
-              We are bringing real solutions to the payments world by leveraging
-              public blockchains.
-            </p>
-            <div class="button"><a href="#">join now</a></div>
-          </div>
-        </div>
-      </section>
-      <div class="container">
-        <section id="pricing" class="section_info">
-          <div class="item_img">
-            <img src="images/statistic-image.jpg" alt="picture" />
-          </div>
-          <div class="item_content">
-            <div class="item_left">
-              <div>
-                <div class="value">
-                  <svg>
-                    <use xlink:href="images/svg/sprite_dollar.svg#dollar"></use>
-                  </svg>
-                  <span>1 tril </span>
+          <section class="section_first_content">
+            <div class="content">
+              <h1>
+                A peer-to-peer stablecoin <i>clearinghouse</i> for the new
+                economy
+              </h1>
+              <p>
+                We are bringing real solutions to the payments world by
+                leveraging public blockchains.
+              </p>
+              <div class="button"><a href="#">join now</a></div>
+            </div>
+          </section>
+          <section id="pricing" class="section_info">
+            <div class="item_img">
+              <picture><source srcset="images/statistic-image.webp" type="image/webp"><img alt="picture" src="images/statistic-image.jpg" /></picture>
+            </div>
+            <div class="item_content">
+              <div class="item_left">
+                <div>
+                  <div class="value">
+                    <svg>
+                      <use xlink:href="images/svg/sprite_dollar.svg#dollar"></use>
+                    </svg>
+                    <span>1 tril </span>
+                  </div>
+                  <p>Market cap potential</p>
+                  <hr />
                 </div>
-                <p>Market cap potential</p>
-                <hr />
-              </div>
-              <div>
-                <div class="value">
-                  <svg>
-                    <use xlink:href="images/svg/sprite_dollar.svg#dollar"></use>
-                  </svg>
-                  <span>3.65 mil</span>
+                <div>
+                  <div class="value">
+                    <svg>
+                      <use xlink:href="images/svg/sprite_dollar.svg#dollar"></use>
+                    </svg>
+                    <span>3.65 mil</span>
+                  </div>
+                  <p>Deposited to platform</p>
+                  <hr />
                 </div>
-                <p>Deposited to platform</p>
-                <hr />
+                <div>
+                  <span>12</span>
+                  <p>Stablecoins</p>
+                </div>
               </div>
-              <div>
-                <span>12</span>
-                <p>Stablecoins</p>
+              <div class="item_right">
+                <p>
+                  Solis group is a new venture created with investments from and
+                  collaboration with XBTO International, XBTO Ventures and Phil
+                  Potter, formerly of bitfinex. Stablehouse is intended to
+                  launch a first-of-its-kind clearing house for stablecoins that
+                  seeks to promote the next phase of the market’s development.
+                </p>
+                <br />
+                <p>
+                  The API-enabled, centralized platform addresses the key issues
+                  of inconsistent liquidity, stability and accessibility which
+                  are currently preventing the stablecoin market from reaching
+                  critical mass.
+                </p>
+                <div class="button"><a href="#">Contact sales</a></div>
               </div>
             </div>
-            <div class="item_right">
-              <p>
-                Solis group is a new venture created with investments from and
-                collaboration with XBTO International, XBTO Ventures and Phil
-                Potter, formerly of bitfinex. Stablehouse is intended to launch
-                a first-of-its-kind clearing house for stablecoins that seeks to
-                promote the next phase of the market’s development.
-              </p>
-              <br />
-              <p>
-                The API-enabled, centralized platform addresses the key issues
-                of inconsistent liquidity, stability and accessibility which are
-                currently preventing the stablecoin market from reaching
-                critical mass.
-              </p>
-              <div class="button"><a href="#">Contact sales</a></div>
-            </div>
-          </div>
-        </section>
-        <section id="products" class="section_benefits">
-          <div>
-            <h2>Qualified <i>traders</i> and liquidty <i>solutions</i></h2>
-            <p>
-              Trade easily and efficiently between 12 stablecoins, including
-              USDT, TrueUSD, Dai, Eurs and Gemini Dollar.
-            </p>
-          </div>
-          <div>
-            <h2>Settlement/OTC API and <i>integration</i></h2>
-            <p>
-              Integrate OTC operations and settlements using our efficient API.
-            </p>
-          </div>
-          <div>
-            <h2>The best <i>payments solutions</i></h2>
-            <p>
-              For all stablecoin payments, from point-of-sale transactions to
-              website solutions. If you use stablecoins in your business,
-              Stablehouse is for you.
-            </p>
-          </div>
-          <div>
-            <h2><i>Treasury</i> and <i>returns</i> for stablecoin stores</h2>
-            <p>
-              Automate your stablecoin store with instant payments and
-              on-the-fly conversion between different stablecoins.
-            </p>
-          </div>
-        </section>
-        <section id="about" class="section_quote">
-          <div class="item_img">
-            <img src="images/quote-background.jpg" alt="picture" />
-          </div>
-          <div class="item_quote">
-            <svg
-              width="102"
-              height="84"
-              viewBox="0 0 102 84"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M68.6832 45.1953C68.198 43.4828 67.9516 41.5149 67.9516 39.2857C67.9516 33.2091 70.2619 27.2093 74.9378 21.278C79.8355 15.3381 85.5761 10.9984 92.1605 8.24707L92.655 8.04045L92.4146 7.56148L89.5114 1.77575L89.2947 1.34382L88.8556 1.54574C77.6047 6.71993 69.1369 13.6332 63.4845 22.2983L63.4844 22.2982L63.4797 22.3058C58.0504 30.9616 55.3387 40.6975 55.3387 51.5C55.3387 59.9307 57.1833 67.0997 60.8999 72.9814C65.2964 79.9897 71.8038 83.5 80.3549 83.5C86.2844 83.5 91.2529 81.5253 95.2239 77.5685C99.4044 73.4029 101.5 68.3468 101.5 62.4286C101.5 56.0983 99.4146 51.0291 95.2141 47.279C91.2448 43.3286 86.2796 41.3571 80.3549 41.3571C75.9772 41.3571 72.081 42.6371 68.6832 45.1953ZM13.8445 45.1953C13.3593 43.4828 13.1129 41.5149 13.1129 39.2857C13.1129 33.2091 15.4232 27.2094 20.0989 21.2782C24.9967 15.3381 30.7374 10.9984 37.3218 8.24707L37.8163 8.04045L37.5759 7.56148L34.6727 1.77575L34.456 1.34382L34.0169 1.54574C22.766 6.71993 14.2982 13.6332 8.64574 22.2983L8.64568 22.2982L8.64095 22.3058C3.21167 30.9616 0.5 40.6975 0.5 51.5C0.5 59.9306 2.34459 67.0996 6.0611 72.9812C10.4576 79.9896 16.965 83.5 25.5161 83.5C31.4457 83.5 36.4142 81.5253 40.3852 77.5685C44.5657 73.4029 46.6613 68.3468 46.6613 62.4286C46.6613 56.0983 44.5758 51.0291 40.3754 47.2789C36.406 43.3286 31.4408 41.3571 25.5161 41.3571C21.1385 41.3571 17.2423 42.6371 13.8445 45.1953Z"
-                stroke="url(#paint0_linear_3303_115)"
-              />
-              <defs>
-                <lineargradient
-                  id="paint0_linear_3303_115"
-                  x1="0.750061"
-                  y1="55.4086"
-                  x2="121.357"
-                  y2="72.9687"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop />
-                  <stop offset="1" stop-opacity="0" />
-                </lineargradient>
-              </defs>
-            </svg>
-            <blockquote cite="#">
-              <p>
-                Solis Group serves as a liquidity nexus that gives stablecoin
-                issuers, holders and exchanges certainty over access and
-                liquidity
-              </p>
-              <footer>Lennon Burnett, <cite>Solis Group CEO</cite></footer>
-            </blockquote>
-          </div>
-        </section>
-        <section class="section_video">
-          <div>
+          </section>
+          <section id="products" class="section_benefits">
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/vnbN9V_2Guk?si=Ae4TgLXsFgX4RzsC"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-          <div>
-            <h2>A <i>powerful API</i> , easy to use user interface</h2>
-            <p>
-              Our API allows all members to interact with Stablehouse’s
-              platform, from effecting transfers to deposits, withdrawals,
-              creation and redemption and reporting.
-            </p>
-          </div>
-        </section>
-        <section id="use_case" class="section_promises">
-          <div class="item_img">
-            <img src="images/features-background-image.jpg" alt="picture" />
-          </div>
-          <div class="item_content">
-            <div class="left">
-              <div>
-                <h5>On-Exchange Trading</h5>
-                <p>Instant</p>
-                <p>Passive Inventory earns fees</p>
-              </div>
-              <div>
-                <h5>Time Settlement Swaps</h5>
-                <p>LBTC / Lightning and other sidechain swaps</p>
-              </div>
-            </div>
-            <div class="right">
-              <div>
-                <h5>On-Chain Swaps</h5>
-                <p>Low Counterparty risk</p>
-                <p>Direct transfers</p>
-              </div>
-              <div class="block_button">
-                <div class="button">
-                  <a href="#">JOIN NOW</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section  class="section_review">
-          <div class="title">
-            <h2>Client <i>reviews</i></h2>
-            <p>
-              Happy clients, happy us. Read our client reviews about the work
-              process and results.
-            </p>
-          </div>
-          <div class="cards_block">
-            <div class="card_item">
-              <div class="item_img">
-                <img src="images/overlay.jpg" alt="picture" />
-              </div>
-              <div class="item_content">
-                <blockquote cite="#">
-                  <p>
-                    Solis did a great job. Whether providing direct development
-                    support or giving us the opportunity to make our development
-                    updates, Solis's web design expertise and support services
-                    were top notch! It didn't take long to stand up our website,
-                    and we were pleased with the design and layout of the
-                    graphics and information.
-                  </p>
-                  <footer>Dr. Jamika Burge</footer>
-                </blockquote>
-              </div>
-            </div>
-
-            <div class="card_item">
-              <div class="item_img">
-                <img src="images/overlay2.jpg" alt="picture" />
-              </div>
-              <div class="item_content">
-                <blockquote cite="#">
-                  <p>
-                    Solis is a cutting edge company and knows the importance of
-                    excellence. Having been in business for 21 years, I know
-                    when I’ve found a competent professional and more
-                    importantly a company with integrity. I highly recommend
-                    this company and am available for further reference if
-                    needed.
-                  </p>
-                  <footer>Evie-Rose Prosse</footer>
-                </blockquote>
-              </div>
-            </div>
-
-            <div class="card_item">
-              <div class="item_img">
-                <img src="images/overlay3.jpg" alt="picture" />
-              </div>
-              <div class="item_content">
-                <blockquote cite="#">
-                  <p>
-                    I can’t say enough about how knowledgeable Toinette Rorie is
-                    in the area of Web Development. She indeed is a developer
-                    and can build a site from scratch. She understands
-                    functionality and is great at constructing a site that is
-                    robust and fully functioning.
-                  </p>
-                  <footer>Elvis Mooney</footer>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="recourses" class="section_contact">
-          <div class="flex">
-            <div class="contact_title">
-              <h2>Contact <i>our sales team</i></h2>
+              <h2>Qualified <i>traders</i> and liquidty <i>solutions</i></h2>
               <p>
-                Our team is happy to answer your sales questions. Fill out the
-                form and we’ll be in touch as soon as possible.
+                Trade easily and efficiently between 12 stablecoins, including
+                USDT, TrueUSD, Dai, Eurs and Gemini Dollar.
               </p>
             </div>
-            <div class="contact_form">
-              <form action="#" name="submit">
-                <div>
-                  <input type="text" name="name" id="name" required />
-                  <label for="name">Your name</label>
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
-                    minlength="4"
-                    maxlength="30"
-                    required
-                  />
-                  <label for="email">Email</label>
-                </div>
-                <div>
-                  <input
-                    type="tel"
-                    name="phone_number"
-                    id="phone_number"
-                    required
-                  />
-                  <label for="phone_number">Tell more</label>
-                </div>
-                <div class="button">
-                  <button type="submit">SEND REQuest</button>
-                </div>
-              </form>
+            <div>
+              <h2>Settlement/OTC API and <i>integration</i></h2>
+              <p>
+                Integrate OTC operations and settlements using our efficient
+                API.
+              </p>
             </div>
-          </div>
-        </section>
-      </div>
-      <!--container-->
-    </main>
-    <footer>
-      <div class="container">
+            <div>
+              <h2>The best <i>payments solutions</i></h2>
+              <p>
+                For all stablecoin payments, from point-of-sale transactions to
+                website solutions. If you use stablecoins in your business,
+                Stablehouse is for you.
+              </p>
+            </div>
+            <div>
+              <h2><i>Treasury</i> and <i>returns</i> for stablecoin stores</h2>
+              <p>
+                Automate your stablecoin store with instant payments and
+                on-the-fly conversion between different stablecoins.
+              </p>
+            </div>
+          </section>
+          <section id="about" class="section_quote">
+            <div class="item_img">
+              <picture><source srcset="images/quote-background.webp" type="image/webp"><img src="images/quote-background.jpg" alt="picture" /></picture>
+            </div>
+            <div class="item_quote">
+              <svg
+                width="102"
+                height="84"
+                viewBox="0 0 102 84"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M68.6832 45.1953C68.198 43.4828 67.9516 41.5149 67.9516 39.2857C67.9516 33.2091 70.2619 27.2093 74.9378 21.278C79.8355 15.3381 85.5761 10.9984 92.1605 8.24707L92.655 8.04045L92.4146 7.56148L89.5114 1.77575L89.2947 1.34382L88.8556 1.54574C77.6047 6.71993 69.1369 13.6332 63.4845 22.2983L63.4844 22.2982L63.4797 22.3058C58.0504 30.9616 55.3387 40.6975 55.3387 51.5C55.3387 59.9307 57.1833 67.0997 60.8999 72.9814C65.2964 79.9897 71.8038 83.5 80.3549 83.5C86.2844 83.5 91.2529 81.5253 95.2239 77.5685C99.4044 73.4029 101.5 68.3468 101.5 62.4286C101.5 56.0983 99.4146 51.0291 95.2141 47.279C91.2448 43.3286 86.2796 41.3571 80.3549 41.3571C75.9772 41.3571 72.081 42.6371 68.6832 45.1953ZM13.8445 45.1953C13.3593 43.4828 13.1129 41.5149 13.1129 39.2857C13.1129 33.2091 15.4232 27.2094 20.0989 21.2782C24.9967 15.3381 30.7374 10.9984 37.3218 8.24707L37.8163 8.04045L37.5759 7.56148L34.6727 1.77575L34.456 1.34382L34.0169 1.54574C22.766 6.71993 14.2982 13.6332 8.64574 22.2983L8.64568 22.2982L8.64095 22.3058C3.21167 30.9616 0.5 40.6975 0.5 51.5C0.5 59.9306 2.34459 67.0996 6.0611 72.9812C10.4576 79.9896 16.965 83.5 25.5161 83.5C31.4457 83.5 36.4142 81.5253 40.3852 77.5685C44.5657 73.4029 46.6613 68.3468 46.6613 62.4286C46.6613 56.0983 44.5758 51.0291 40.3754 47.2789C36.406 43.3286 31.4408 41.3571 25.5161 41.3571C21.1385 41.3571 17.2423 42.6371 13.8445 45.1953Z"
+                  stroke="url(#paint0_linear_3303_115)"
+                />
+                <defs>
+                  <lineargradient
+                    id="paint0_linear_3303_115"
+                    x1="0.750061"
+                    y1="55.4086"
+                    x2="121.357"
+                    y2="72.9687"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop />
+                    <stop offset="1" stop-opacity="0" />
+                  </lineargradient>
+                </defs>
+              </svg>
+              <blockquote cite="#">
+                <p>
+                  Solis Group serves as a liquidity nexus that gives stablecoin
+                  issuers, holders and exchanges certainty over access and
+                  liquidity
+                </p>
+                <footer>Lennon Burnett, <cite>Solis Group CEO</cite></footer>
+              </blockquote>
+            </div>
+          </section>
+          <section class="section_video">
+            <div>
+              <div>
+                <iframe
+                  src="https://www.youtube.com/embed/vnbN9V_2Guk?si=Ae4TgLXsFgX4RzsC"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div>
+              <h2>A <i>powerful API</i> , easy to use user interface</h2>
+              <p>
+                Our API allows all members to interact with Stablehouse’s
+                platform, from effecting transfers to deposits, withdrawals,
+                creation and redemption and reporting.
+              </p>
+            </div>
+          </section>
+          <section id="use_case" class="section_promises">
+            <div class="item_img">
+              <picture><source srcset="images/features-background-image.webp" type="image/webp"><img src="images/features-background-image.jpg" alt="picture" /></picture>
+            </div>
+            <div class="item_content">
+              <div class="left">
+                <div>
+                  <h5>On-Exchange Trading</h5>
+                  <p>Instant</p>
+                  <p>Passive Inventory earns fees</p>
+                </div>
+                <div>
+                  <h5>Time Settlement Swaps</h5>
+                  <p>LBTC / Lightning and other sidechain swaps</p>
+                </div>
+              </div>
+              <div class="right">
+                <div>
+                  <h5>On-Chain Swaps</h5>
+                  <p>Low Counterparty risk</p>
+                  <p>Direct transfers</p>
+                </div>
+                <div class="block_button">
+                  <div class="button">
+                    <a href="#">JOIN NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section_review">
+            <div class="title">
+              <h2>Client <i>reviews</i></h2>
+              <p>
+                Happy clients, happy us. Read our client reviews about the work
+                process and results.
+              </p>
+            </div>
+            <div class="cards_block">
+              <div class="card_item">
+                <div class="item_img">
+                  <picture><source srcset="images/overlay.webp" type="image/webp"><img src="images/overlay.jpg" alt="picture" /></picture>
+                </div>
+                <div class="item_content">
+                  <blockquote cite="#">
+                    <p>
+                      Solis did a great job. Whether providing direct
+                      development support or giving us the opportunity to make
+                      our development updates, Solis's web design expertise and
+                      support services were top notch! It didn't take long to
+                      stand up our website, and we were pleased with the design
+                      and layout of the graphics and information.
+                    </p>
+                    <footer>Dr. Jamika Burge</footer>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="card_item">
+                <div class="item_img">
+                  <picture><source srcset="images/overlay2.webp" type="image/webp"><img src="images/overlay2.jpg" alt="picture" /></picture>
+                </div>
+                <div class="item_content">
+                  <blockquote cite="#">
+                    <p>
+                      Solis is a cutting edge company and knows the importance
+                      of excellence. Having been in business for 21 years, I
+                      know when I’ve found a competent professional and more
+                      importantly a company with integrity. I highly recommend
+                      this company and am available for further reference if
+                      needed.
+                    </p>
+                    <footer>Evie-Rose Prosse</footer>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="card_item">
+                <div class="item_img">
+                  <picture><source srcset="images/overlay3.webp" type="image/webp"><img src="images/overlay3.jpg" alt="picture" /></picture>
+                </div>
+                <div class="item_content">
+                  <blockquote cite="#">
+                    <p>
+                      I can’t say enough about how knowledgeable Toinette Rorie
+                      is in the area of Web Development. She indeed is a
+                      developer and can build a site from scratch. She
+                      understands functionality and is great at constructing a
+                      site that is robust and fully functioning.
+                    </p>
+                    <footer>Elvis Mooney</footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="recourses" class="section_contact">
+            <div class="flex">
+              <div class="contact_title">
+                <h2>Contact <i>our sales team</i></h2>
+                <p>
+                  Our team is happy to answer your sales questions.Fill out the
+                  form and we’ll be in touch as soon as possible.
+                </p>
+              </div>
+              <div class="contact_form">
+                <form action="#" name="submit">
+                  <div>
+                    <input type="text" name="name" id="name" required />
+                    <label for="name">Your name</label>
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+                      minlength="4"
+                      maxlength="30"
+                      required
+                    />
+                    <label for="email">Email</label>
+                  </div>
+                  <div>
+                    <input
+                      type="tel"
+                      name="phone_number"
+                      id="phone_number"
+                      required
+                    />
+                    <label for="phone_number">Tell more</label>
+                  </div>
+                  <div class="button">
+                    <button type="submit">SEND REQuest</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!--container-->
+      </main>
+      <footer>
+    <div class="container">
         <div><p>© 2020 Solisgroup. All Rights Reserved.</p></div>
         <div>
-          <p>made by <strong>Zgraya.digital</strong></p>
+            <p>made by <strong>Zgraya.digital</strong></p>
         </div>
         <div>
-          <span><strong>User Agreement&#8194;&#8194;</strong></span>
-          <span><strong>Privacy Policy</strong></span>
+            <span><strong>User Agreement&#8194;&#8194;</strong></span>
+            <span><strong>Privacy Policy</strong></span>
         </div>
-      </div>
-    </footer>
+    </div>
+</footer>
+    </div>
+    <script src="js/app.min.js?_v=20231123013410"></script>
   </body>
 </html>
